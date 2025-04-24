@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 128px;
+    display: flex;
+    /*same line*/
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    left: 32px;
+}
+
+.logoname {
+    left: 32px;
+    margin-left: 32px;
+    font-size: 24px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+
+.menu {
+    left: 32px;
+    display: flex;
+    gap: 70px;
+    margin-left: 100px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #612999;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.menu a:hover {
+    color: plum;
+}
+
+/* MAIN */
+main {
+    width: 100%;
+    /* min-height: 100vh; */
+    /* padding: 5vw 8vw; */
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.section-1 {
+    position: relative;
+    width: 100%;
+}
+
+.section-1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.one-text-container {
+    position: absolute;
+    top: 32px;
+    ;
+    left: 72px;
+    width: 40%;
+    /* Adjust as needed */
+    transform: scale(1.2);
+    /* Scales down but keeps original font-size */
+    z-index: 1;
+}
+
+.one-text {
+    position: absolute;
+    left: 32px;
+    font-size: 6vw;
+    color: #612999;
+}
+
+.one-par {
+    position: absolute;
+    top: 130px;
+    left: 32px;
+    font-weight: 600;
+    max-width: 500px;
+    font-size: 1.5vw;
+}
+
+/* SECTION 2 */
+.section-2 {
+    width: 100%;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 0px;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+    /* Ensures padding does not affect overall width */
+}
+
+.section-2 h1 {
+    color: #612999;
+    font-weight: bold;
+    font-size: calc(40px * 1.3);
+}
+
+.about-par {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 2vw;
+    max-width: 100%;
+    font-size: calc(20px * 1.3);
+    /* This will scale the font size without breaking the layout */
+}
+
+/*SECTION-3*/
+
+.section-3 {
+    width: 100%;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 0px;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+    color: #612999;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: flex-start;
+}
+
+.card {
+
+    position: relative;
+    background-color: #EFECFF;
+    width: 376px;
+    height: 496px;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Abel', sans-serif;
+}
+
+.cardtitle {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 32px;
+    color: black;
+}
+
+.card p {
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 32px;
+    color: #333333;
+}
+
+.cardprice {
+    color: #612999;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 32px;
+}
+
+.cart-pic {
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    bottom: 32px;
+    margin-bottom: 0px;
+    right: 55px;
+
+}
+
+.cardpic {
+    border-radius: 10%;
+    width: 376px;
+    height: 276px;
+}
+
+.heart-pic {
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: #EFECFF;
+    padding: 20px 40px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 100px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h1 {
+    margin-top: 20px;
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.wholist {
+    color: #333333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.wholist li:hover {
+    color: #612999;
+    cursor: pointer;
+}
+
+.footer-section2 {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.ending {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+}

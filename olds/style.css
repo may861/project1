@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    height: 128px;
+    top: 32px;
+    left: 32px;
+
+}
+
+.area1 {
+    height: 64px;
+    position: relative;
+    top: 32px;
+    left: 32px;
+    display: flex;
+    width: 1046px;
+}
+
+
+.logo {
+    /* background-color: yellowgreen; */
+    display: flex;
+    width: 252px;
+    height: 64px;
+}
+
+.logopic {
+    width: 64px;
+    height: 64px;
+    top: 32px;
+    left: 32px;
+
+}
+
+
+.logoname {
+    /* background-color: blueviolet; */
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    color: #3E3F43;
+    letter-spacing: 5px;
+    width: 191px;
+    height: 33px;
+    top: 53px;
+    left: 93px;
+    margin-top: 20px;
+
+}
+
+
+.menu-home {
+    position: absolute;
+    color: #612999;
+    line-height: 100%;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    width: 84px;
+    height: 41px;
+    top: 48px;
+    left: 419px;
+    font-size: 30px;
+    margin-top: -30px;
+    font-weight: 400;
+
+}
+
+.menu-smoothies {
+    position: absolute;
+    color: #612999;
+    line-height: 100%;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    width: 197px;
+    height: 41px;
+    top: 48px;
+    left: 565px;
+    font-size: 30px;
+    margin-top: -30px;
+    white-space: nowrap;
+    font-weight: 400;
+
+}
+
+.menu-about {
+    position: absolute;
+    color: #612999;
+    line-height: 100%;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    width: 84px;
+    height: 41px;
+    top: 48px;
+    left: 826px;
+    font-size: 30px;
+    margin-top: -30px;
+    white-space: nowrap;
+    font-weight: 400;
+
+}
+
+.menu-contact {
+    position: absolute;
+    color: #612999;
+    line-height: 100%;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    width: 104px;
+    height: 41px;
+    top: 50px;
+    left: 974px;
+    font-size: 30px;
+    margin-top: -30px;
+    white-space: nowrap;
+    font-weight: 400;
+
+}
+
+.area2 {
+    position: absolute;
+    width: 1200px;
+    height: 797px;
+    top: 128px;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+.enjoypic {
+    width: 100%;
+}
+
+.allenjoy {
+    position: absolute;
+    width: 448px;
+    height: 230px;
+    top: 160px;
+    left: 32px;
+    margin-top: -130px;
+}
+
+.enjoy {
+    color: #612999;
+    font-size: 96px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    width: 448px;
+    height: 131px;
+    top: 160px;
+    left: 32px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+.enjoypr {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+    width: 448px;
+    height: 99;
+    padding: 12px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    top: 291px;
+    left: 32px;
+
+}
+
+
+
+.area3 {
+    position: absolute;
+    width: 1136px;
+    height: 382px;
+    top: 957px;
+    left: 32px;
+    margin-top: -30px;
+}
+
+.allabout {
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.about {
+    font-size: 40px;
+    color: #612999;
+}
+
+.aboutpr {
+    font-size: 20px;
+    max-width: 1136px;
+    font-weight: 400;
+    line-height: 1.41;
+}
+
+.area4 {
+    background-color: aquamarine;
+    position: absolute;
+    width: 784px;
+    height: 1096px;
+    top: 1371px;
+    left: 32px;
+
+}
+
+.populardrinks {
+    font-family: 'Rubik', sans-serif !important;
+    font-size: 40px;
+    color: #612999;
+}
+
+
+.drink1 {
+    background-color:#612999;
+
+    width: 376px;
+    height: 496px;
+    top: 1443px;
+    left: 32px;
+
+}
+
+.drink1 img {
+    position: absolute;
+    top: 0px;
+    margin-top: 53px;
+    object-fit: cover;
+}
+
+.title1 {
+    position: absolute;
+    z-index: 3;
+
+    font-family: 'Abel', sans-serif;
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    font-weight: 400;
+    top: 1740px;
+    left: 64px;
+
+}
+
+
+.drinkpr1 {
+    background-color: aqua;
+    position: absolute;
+    z-index: 4;
+
+    font-family: 'Abel', sans-serif;
+    color: black;
+    font-size: 18px;
+
+    font-weight: 400;
+    max-width: 300px;
+    width: 784px;
+    height: 96px;
+    top: 1371px;
+    left: 32px;
+}
+
+.strawberry {
+    z-index: 2;
+    height: 276px;
+    width: 376px;
+    border-radius: 10%;
+}
+
+.rectangle1 {
+    z-index: 1;
+    height: 496px;
+    width: 376px;
+} 
+
+/* .love {
+    background-color: #612999;
+    z-index: 4;
+    width: 47px;
+    height: 47px;
+    top: 1478px;
+    left: 319px;
+    position: relative;
+
+}
+
+.heart1 {
+    position: absolute;
+    z-index: 4;
+
+}
+
+.hcircle1 {
+    position: absolute;
+    z-index: 3;
+    width: 47px;
+    height: 47px;
+} */

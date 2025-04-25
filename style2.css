@@ -65,7 +65,7 @@ main {
     font-family: 'Nunito', sans-serif;
 }
 
-/*section-1*/
+/*SECION-1*/
 
 .section-1 {
     padding-left: 32px;
@@ -82,10 +82,10 @@ main {
 
 
 
-/*section-2*/
+/*SECTION-2*/
 
 .section-2 {
-    font-family: 'Runik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     padding-left: 32px;
     color: #612999;
     margin-bottom: 20px;
@@ -105,16 +105,41 @@ main {
     text-decoration: none;
 }
 
-.option h1{
+.option h1 {
     margin-left: 12px;
-    font-family: 'Runik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: black;
     font-size: 24px;
     font-weight: 400;
 
 }
+
 .option a:hover {
     color: plum;
+}
+
+
+/* SECTION-3*/
+
+.section-3 {
+    font-family: 'Rubik', sans-serif;
+    margin-left: 32px;
+    color: #612999;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    margin-right: 32px;
+
+}
+
+.choice-box {
+    width: 100%;
+    height: 503px;
+    left: 32px;
+    margin-top: 40px;
+    background-color: #EFECFF;
 }
 
 /* FOOTER */

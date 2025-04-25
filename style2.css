@@ -133,13 +133,24 @@ main {
     margin-right: 32px;
 }
 
+
 .choice-box {
     width: 100%;
     height: 503px;
-    left: 32px;
     margin-top: 40px;
     background-color: #EFECFF;
+    
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
 }
+
+.choice-box iframe {
+    height: 90%;
+    width: 90%; /* Or keep 1136px if you want fixed width */
+    margin: 0; /* Remove margins if you want perfect centering */
+}
+
 
 /* FOOTER */
 footer {
@@ -192,4 +203,6 @@ footer h1 {
     font-size: 16px;
     color: #333333;
     font-weight: 600;
+    display: flex;
+
 }

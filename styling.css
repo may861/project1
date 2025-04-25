@@ -70,7 +70,7 @@ main {
     width: 100%;
 }
 
-.section-1 img {
+.cover-image {
     width: 100%;
     height: auto;
     object-fit: cover;

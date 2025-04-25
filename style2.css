@@ -103,13 +103,15 @@ main {
 
 .option a {
     text-decoration: none;
-    color: black;
-    font-size: 24px;
-    font-weight: 400;
 }
 
 .option h1{
-    margin-left: 32px;
+    margin-left: 12px;
+    font-family: 'Runik', sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+
 }
 .option a:hover {
     color: plum;

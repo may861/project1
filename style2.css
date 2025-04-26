@@ -88,8 +88,14 @@ main {
     font-family: 'Rubik', sans-serif;
     padding-left: 32px;
     color: #612999;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
 }
+
+.section-2 h1{
+    margin-bottom: 32px;
+
+}
+
 
 .option {
     font-size: 24px;
@@ -98,6 +104,7 @@ main {
     align-items: center;
     justify-content: flex-start;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -111,10 +118,11 @@ main {
     color: black;
     font-size: 24px;
     font-weight: 400;
+    margin-top: 32px;
 
 }
 
-.option a:hover {
+.option a:hover h1{
     color: plum;
 }
 

@@ -28,6 +28,7 @@ header {
     left: 32px;
 }
 
+
 .logoname {
     left: 32px;
     margin-left: 32px;
@@ -118,7 +119,7 @@ main {
 
 .surprise-content a {
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 52px;
     font-size:15px;
     max-width: 150px;
